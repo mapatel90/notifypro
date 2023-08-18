@@ -9,12 +9,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <title></title>
     <style>
-        .all_button {
+        .btn-color {
             background: linear-gradient(to right, #ccffcc 0%, #99ccff 100%);
         }
+        .btn {
+                width: 50%;
+                margin: 0px 0;
+            }
 
         .form-control {
             background-color: #4ebde6;
+        }
+
+        .custom-container {
+            min-height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         @media (max-width: 767px) {
@@ -28,8 +39,12 @@
             }
 
             .btn {
-                width: 100%;
-                margin: 10px 0;
+                width: 65%;
+            }
+
+            .btn-lg {
+                padding: 12px 20px;
+                font-size: 25px;
             }
         }
     </style>

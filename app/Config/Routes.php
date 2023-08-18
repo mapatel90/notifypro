@@ -29,9 +29,10 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('home_page', 'Home_page::home');
+$routes->get('/', 'Home::index');
 $routes->get('create_notification', 'Create_notification::create_notification');
 $routes->get('notifypro', 'Notify_pro::notifypro');
+$routes->get('user/login', 'User::login');
 
 /*
  * --------------------------------------------------------------------

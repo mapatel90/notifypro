@@ -2,13 +2,13 @@
     <h1 class="text-center">Create Notification</h1>
     <div class="d-grid gap-2 col-lg-4 col-md-6 mx-auto text-center">
         <div class="mt-3">
-            <button class="btn all_button">Search <b>category</b></button>
+            <button class="btn btn-color">Search <b>category</b></button>
         </div>
         <div class="mt-3">
-            <button class="btn all_button">Search <b>Company</b></button>
+            <button class="btn btn-color">Search <b>Company</b></button>
         </div>
         <div class="mt-3">
-            <button class="btn all_button">Search <b>Contact</b></button>
+            <button class="btn btn-color">Search <b>Contact</b></button>
         </div>
     </div>
     <form class="mt-4">
