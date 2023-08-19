@@ -2,7 +2,9 @@
 
 namespace App\Controllers;
 
-class User extends BaseController
+use CodeIgniter\Controller;
+
+class User extends Controller
 {
     public function home_page()
     {
