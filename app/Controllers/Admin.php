@@ -24,7 +24,7 @@ class Admin extends Controller
      $data['title'] = 'Category List';
     
      $header = view('header', $data);
-     $content = view('admin/category_list');
+     $content = view('admin/category/list');
     $footer = view('footer');
 
      $combinedViews = $header . $content . $footer;
