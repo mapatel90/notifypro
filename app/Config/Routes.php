@@ -32,6 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('create_notification', 'Create_notification::create_notification');
 $routes->get('notifypro', 'Notify_pro::notifypro');
+$routes->get('user/home_page', 'User::home_page');
 $routes->get('user/login', 'User::login');
 
 /*

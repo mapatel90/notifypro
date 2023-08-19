@@ -12,10 +12,11 @@
         .btn-color {
             background: linear-gradient(to right, #ccffcc 0%, #99ccff 100%);
         }
+
         .btn {
-                width: 50%;
-                margin: 0px 0;
-            }
+            width: 50%;
+            margin: 0px 0;
+        }
 
         .form-control {
             background-color: #4ebde6;
@@ -45,6 +46,11 @@
             .btn-lg {
                 padding: 12px 20px;
                 font-size: 25px;
+            }
+
+            .form-control {
+                width: 65%;
+                background-color: #4ebde6;
             }
         }
     </style>
