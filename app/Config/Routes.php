@@ -36,6 +36,10 @@ $routes->get('user/home_page', 'User::home_page');
 $routes->get('user/login', 'User::login');
 $routes->get('admin', 'Admin::index');
 $routes->get('admin/category', 'Admin::category_list');
+$routes->get('admin/companies', 'Admin::companies_list');
+$routes->get('admin/add_company', 'Admin::add_company');
+$routes->get('admin/users', 'Admin::users_list');
+$routes->get('admin/add_user', 'Admin::add_user');
 
 /*
  * --------------------------------------------------------------------
