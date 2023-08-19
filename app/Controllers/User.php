@@ -20,8 +20,9 @@ class User extends Controller
         
         $header = view('header', $data);
         $content = view('user/home_page');
+        $footer = view('footer');
 
-        $combinedViews = $header . $content;
+        $combinedViews = $header . $content. $footer;
 
         return $combinedViews;
     }
@@ -32,8 +33,9 @@ class User extends Controller
         
         $header = view('header', $data);
         $content = view('user/login');
+        $footer = view('footer');
 
-        $combinedViews = $header . $content;
+        $combinedViews = $header . $content .$footer;
 
         return $combinedViews;
     }
@@ -44,8 +46,9 @@ class User extends Controller
         
         $header = view('header', $data);
         $content = view('user/create_notification');
+        $footer = view('footer');
 
-        $combinedViews = $header . $content;
+        $combinedViews = $header . $content. $footer;
 
         return $combinedViews;
     }
@@ -56,8 +59,9 @@ class User extends Controller
         
         $header = view('header', $data);
         $content = view('user/create_notification_details');
+        $footer = view('footer');
 
-        $combinedViews = $header . $content;
+        $combinedViews = $header . $content .$footer;
 
         return $combinedViews;
     }
@@ -68,8 +72,9 @@ class User extends Controller
         
         $header = view('header', $data);
         $content = view('user/document_confirmation');
+        $footer = view('footer');
 
-        $combinedViews = $header . $content;
+        $combinedViews = $header . $content .$footer;
 
         return $combinedViews;
     }
@@ -84,7 +89,7 @@ class User extends Controller
         $footer = view('footer');
 
         // Concatenate the views
-        $combinedViews = $header . $content;
+        $combinedViews = $header . $content . $footer;
 
         // Return the combined views
         return $combinedViews;

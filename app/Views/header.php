@@ -10,12 +10,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title><?php echo $title ?? '' ?></title>
     <style>
-       body {
-  font-family: "Graphik", "Courier New", monospace;
-  font-weight: 600;
-}
+        @font-face {
+            font-family: 'Graphik Web';
+            src: url('Graphik-SuperItalic-Web.eot');
+            src: url('Graphik-SuperItalic-Web.eot?#iefix') format('embedded-opentype'),
+                url('Graphik-SuperItalic-Web.woff2') format('woff2'),
+                url('Graphik-SuperItalic-Web.woff') format('woff');
+            font-weight: 900;
+            font-style: italic;
+            font-stretch: normal;
+        }
 
-      
+        body {
+            font-family: "Graphik";
+            font-weight: 500;
+        }
+
+
+
+
 
         .custom-center {
             display: flex;

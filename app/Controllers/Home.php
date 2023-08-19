@@ -20,9 +20,9 @@ class Home extends Controller
         // Load each view separately
         $header = view('header', $data);
         $content = view('home');
-    
+        $footer = view('footer');
         // Concatenate the views
-        $combinedViews = $header . $content;
+        $combinedViews = $header . $content .$footer;
     
         // Return the combined views
         return $combinedViews;
