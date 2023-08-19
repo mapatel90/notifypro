@@ -11,18 +11,20 @@
             <button class="btn btn-color">Search <b>Contact</b></button>
         </div>
     </div>
-    <form class="mt-4">
-        <div class="mb-3">
-            <label for="contact_name" class="form-label">Contact Name :</label>
-            <input type="text" class="form-control" id="contact_name" name="contact_name">
-        </div>
-        <div class="mb-3">
-            <label for="whatsapp_no" class="form-label">Whatsapp No :</label>
-            <input type="text" class="form-control" id="whatsapp_no" name="whatsapp_no">
-        </div>
-        <div class="mb-3">
-            <label for="email_id" class="form-label">Email ID :</label>
-            <input type="email" class="form-control" id="email_id" name="email_id">
-        </div>
+    <form class="mt-5" style="margin-left: 100px;">
+        <a href="<?php echo base_url('user/create_notification_details') ?>" style="color: black;">
+            <div class="mb-3">
+                <label for="contact_name" class="form-label">Contact Name :</label>
+                <input type="text" class="form-control" id="contact_name" name="contact_name">
+            </div>
+            <div class="mb-3">
+                <label for="whatsapp_no" class="form-label">Whatsapp No :</label>
+                <input type="text" class="form-control" id="whatsapp_no" name="whatsapp_no">
+            </div>
+            <div class="mb-3">
+                <label for="email_id" class="form-label">Email ID :</label>
+                <input type="email" class="form-control" id="email_id" name="email_id">
+            </div>
+        </a>
     </form>
 </div>

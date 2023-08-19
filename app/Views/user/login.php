@@ -11,12 +11,12 @@
                 <input type="password" class="form-control" id="password" name="password">
             </div>
             <div>
-                <button id="submit" name="submit">SUBMIT</button>
+                <a href="<?php echo base_url('user/home_page') ?>" id="submit" name="submit" style="border: 1px solid #000; padding: 7px;">SUBMIT</a>
             </div>
             <div class="mt-4">
-                <button>
+                <a href="#" style="border: 1px solid #000; padding: 7px;">
                     Reset password
-                </button>
+                </a>
             </div>
         </form>
     </div>
