@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Controllers;
+use CodeIgniter\Controller;
 
-class Vendor extends BaseController
+class Vendor extends Controller
 {
    public function index()
    {

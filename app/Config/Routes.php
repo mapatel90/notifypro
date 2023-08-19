@@ -33,6 +33,8 @@ $routes->get('/', 'Home::index');
 $routes->get('create_notification', 'Create_notification::create_notification');
 $routes->get('notifypro', 'Notify_pro::notifypro');
 $routes->get('user/login', 'User::login');
+$routes->get('admin', 'Admin::index');
+$routes->get('admin/category', 'Admin::category_list');
 
 /*
  * --------------------------------------------------------------------
