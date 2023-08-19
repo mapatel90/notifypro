@@ -9,7 +9,7 @@ class Home extends Controller
     public function __construct()
     {
         //load helper
-         
+         helper('html');
     }
 
     public function index()

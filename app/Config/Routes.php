@@ -40,6 +40,15 @@ $routes->get('admin/companies', 'Admin::companies_list');
 $routes->get('admin/add_company', 'Admin::add_company');
 $routes->get('admin/users', 'Admin::users_list');
 $routes->get('admin/add_user', 'Admin::add_user');
+$routes->get('admin/category/add', 'Admin::add_category');
+$routes->get('vendor/thank_you', 'Vendor::thank_you');
+$routes->get('user/list', 'User::list');
+$routes->get('user/create_notification', 'User::create_notification');
+$routes->get('user/create_notification_details', 'User::create_notification_details');
+$routes->get('user/document_confirmation', 'User::document_confirmation');
+$routes->get('vendor', 'Vendor::index');
+$routes->get('expense', 'Vendor::expense');
+$routes->get('addmore', 'Vendor::addmore');
 
 /*
  * --------------------------------------------------------------------

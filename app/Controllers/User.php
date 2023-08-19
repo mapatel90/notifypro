@@ -6,6 +6,13 @@ use CodeIgniter\Controller;
 
 class User extends Controller
 {
+
+    public function __construct()
+    {
+        //load helper
+        helper('html');
+    }
+
     public function home_page()
     {
         $data = [];
@@ -64,6 +71,22 @@ class User extends Controller
 
         $combinedViews = $header . $content;
 
+        return $combinedViews;
+    }
+
+    public function list()
+    {
+        $data = [];
+        $data['title'] = 'list';
+        // Load each view separately
+        $header = view('header', $data);
+        $content = view('user/list');
+        $footer = view('footer');
+
+        // Concatenate the views
+        $combinedViews = $header . $content;
+
+        // Return the combined views
         return $combinedViews;
     }
 }

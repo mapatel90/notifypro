@@ -1,8 +1,10 @@
 <div class="container py-5">
-    <h3 class="text-center"><u>Category List</u></h3>
+    <div style="display: flex;justify-content: center;align-items: center;">
+        <h2 class="header_title">Category List</h2>
+    </div>
     <!-- make table view -->
     <div class="float-right m-4">
-        <a href="<?php echo base_url('admin/add_category') ?>" class="btn full-width rounded-0 w-100 mt-5" style="border: 1px solid #000;">Add New</a>
+        <a href="<?php echo base_url('admin/category/add') ?>" class="btn full-width rounded-0 w-100 mt-5" style="border: 1px solid #000;">Add New</a>
     </div>
     <div class="table_div table-responsive mt-5">
         <table class="table table-borderless mt-3" style="border-collapse: separate;">

@@ -1,6 +1,6 @@
 <style>
     #textarea {
-        background-color: #4ebde6;
+        background-color: #b5e7ee;
     }
 
     th {
@@ -52,16 +52,12 @@
                     </tr>
                 </tbody>
             </table>
-            <div class="row">
-                <div class="col-9">
-                    <button id="notification_submit" name="notification_submit">
-                        SUBMIT
-                    </button>
+            <div class="container pt-5 pl-4 pr-4">
+                <div class="float-left">
+                    <a href="<?php echo base_url('user/home_page') ?>" class="btn  full-width rounded-0 w-100 " style="border: 1px solid #000;">SUBMIT</a>
                 </div>
-                <div class="col-3">
-                    <button id="notification_reset" name="notification_reset">
-                        RESET
-                    </button>
+                <div class="float-right">
+                    <a href="<?php echo base_url('user/home_page') ?>" class="btn  full-width rounded-0 w-100 " style="border: 1px solid #000;">CLEAR</a>
                 </div>
             </div>
         </div>

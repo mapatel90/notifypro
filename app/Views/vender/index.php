@@ -1,4 +1,5 @@
 <div class="container py-3">
+    <div class="custom-center custom-container">
     <h5 class="ml-0"><i class="fas fa-comments text-success"></i>&nbsp;&nbsp;<u>Notification Template</u></h5>
 
     <div class="border border-dark pt-4 mt-4 v100">
@@ -17,5 +18,6 @@
             <input type="text" class="ml-1 mb-1" style="width: 224px;">&nbsp;
             <i class="far fa-envelope text-primary" style="font-size: 24px;"></i>
         </div>
+    </div>
     </div>
 </div>

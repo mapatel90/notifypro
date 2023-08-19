@@ -1,6 +1,6 @@
 <div class="container py-5">
     <div style="display: flex;justify-content: center;align-items: center;">
-        <h3 style="border-bottom: 2px solid black;padding-bottom: 5px;">Company List</h3>
+        <h2 class="header_title">Company List</h2>
     </div>
     <!-- make table view -->
     <div class="float-right m-4">

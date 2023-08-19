@@ -6,6 +6,11 @@ use CodeIgniter\Controller;
 
 class Admin extends Controller
 {
+    public function __construct()
+    {
+        //load helper
+        helper('html');
+    }
     public function index()
     {
         $data = [];
@@ -78,6 +83,21 @@ class Admin extends Controller
 
         $header = view('header', $data);
         $content = view('admin/users/add');
+        $footer = view('footer');
+
+        $combinedViews = $header . $content . $footer;
+        return $combinedViews;
+    }
+
+    
+    //category add view
+    public function add_category()
+    {
+        $data = [];
+        $data['title'] = 'Add Category';
+
+        $header = view('header', $data);
+        $content = view('admin/category/add');
         $footer = view('footer');
 
         $combinedViews = $header . $content . $footer;

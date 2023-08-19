@@ -35,5 +35,18 @@ class Vendor extends Controller
     return $combinedViews;  
   }
 
+   //tank you page
+   public function thank_you()
+   {
+      $data = [];
+      $data['title'] = 'Thank You';
+
+      $header = view('header', $data);
+      $content = view('vendor/thank_you');
+      $footer = view('footer');
+
+      $combinedViews = $header . $content . $footer;
+      return $combinedViews;
+   }
 
 }
