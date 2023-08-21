@@ -7,7 +7,7 @@
         <a href="<?php echo base_url('admin/add_company') ?>" class="btn full-width rounded-0 w-100 mt-5" style="background-color: rgba(154,220,255,.6);border: 2px solid black;"><i class="fa-solid fa-plus"></i> ADD NEW</a>
     </div>
     <div class="table_div table-responsive mt-5">
-        <table class="table table-borderless mt-3" id="companies_list" style="border-collapse: separate;">
+        <table class="table table-borderless mt-3" id="companies_list">
             <thead>
                 <tr>
                     <th scope="col" style="background: #89c6e9;">Sr.No</th>
