@@ -26,20 +26,20 @@
     <div class="custom-container custom-center">
         <h2 class="text-center"><u>Expenses</u></h2>
         <div class="p-3 text-center">
-            <p>
+            <p style="font-size:20px;">
                 Please Submit <br>
                 following document
             </p>
         </div>
-        <div class="ml-2 mr-5 txt-content-box" style="background-color: #b5e7ee; width: 195px; height: 65px;">
-            <p class="text-center mt-1">
+        <div class="ml-2 mr-5 txt-content-box" style="background-color: #b5e7ee; width: 200px; height: 72px;">
+            <p class="text-center mt-1" style="font-size:20px;">
                 txt as entered by <br>
                 sender Ashok
             </p>
         </div>
         <div class="mt-5">
             <div class="d-flex align-items-center ml-3">
-                <input type="text" class="mr-3" style="width: 123px;height: 42px;">
+                <input type="text" class="mr-3" style="width: 123px;height: 42px;border: 2px solid;">
                 <div>
                     <a href="<?php echo base_url('addmore') ?>"><i class="fa fa-upload rounded-icon" aria-hidden="true"></i></a>
                 </div>

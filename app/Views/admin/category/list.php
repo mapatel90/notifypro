@@ -1,6 +1,7 @@
 <div class="container py-5">
+    
     <div style="display: flex;justify-content: center;align-items: center;">
-        <h2 class="header_title">Category List</h2>
+        <h3 class="header_title" style="font-weight: 10 !important;">Category List</h3>
     </div>
     <!-- make table view -->
     <div class="float-right m-4">

@@ -36,6 +36,10 @@
     font-size: 25px;
   }
 
+  input.input-box:focus {
+    outline: none;
+  }
+
  
 </style>
 
@@ -45,9 +49,14 @@
         <input class="input-box" type="text">
        
     </div>
-    <div class="button-group">
-            <a href="<?php echo base_url('admin') ?>" class="btn round-0 btn_custome">Submit</a>
-            <a href="<?php echo base_url('admin') ?>" class="btn round-0 btn_custome">Clear</a>
+
 </div>
+<div class="container pl-4 pr-4">
+    <div class="float-left">
+        <a href="<?php echo base_url('admin') ?>" class="btn full-width rounded-0 w-100" style="padding: 5px 25px 5px 25px;font-weight: 600;font-size: 16px;border: 2px solid black;">SUBMIT</a>
+    </div>
+    <div class="float-right">
+        <a href="<?php echo base_url('admin') ?>" class="btn full-width rounded-0 w-100" style="padding: 5px 25px 5px 25px;font-weight: 600;font-size: 16px;border: 2px solid black;">CLEAR</a>
+    </div>
 </div>
 

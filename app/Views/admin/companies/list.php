@@ -31,3 +31,11 @@
         </table>
     </div>
 </div>
+
+<?= $this->section('javascript') ?>
+<script>
+    $(document).ready(function() {
+        $('.table').DataTable();
+    });
+</script>
+    <?= $this->endSection() ?>

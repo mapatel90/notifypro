@@ -27,9 +27,9 @@
 </div>
 <div class="container pt-5 pl-4 pr-4">
     <div class="float-left">
-        <a href="<?php echo base_url('admin') ?>" class="btn full-width rounded-0 w-100" style="padding: 5px 25px 5px 25px;font-weight: 600;font-size: 25px;border: 2px solid black;">SUBMIT</a>
+        <a href="<?php echo base_url('admin') ?>" class="btn full-width rounded-0 w-100" style="padding: 5px 25px 5px 25px;font-weight: 600;font-size: 16px;border: 2px solid black;">SUBMIT</a>
     </div>
     <div class="float-right">
-        <a href="<?php echo base_url('admin') ?>" class="btn full-width rounded-0 w-100" style="padding: 5px 25px 5px 25px;font-weight: 600;font-size: 25px;border: 2px solid black;">CLEAR</a>
+        <a href="<?php echo base_url('admin') ?>" class="btn full-width rounded-0 w-100" style="padding: 5px 25px 5px 25px;font-weight: 600;font-size: 16px;border: 2px solid black;">CLEAR</a>
     </div>
 </div>

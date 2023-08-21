@@ -15,9 +15,11 @@
         padding: 4px 15px;
         margin: 10px;
         background-color: white;
-        border: 1px solid #ccc;
+        border: 2px solid #000;
         color: black;
         text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
     }
 </style>
 <div class="container">
@@ -32,11 +34,11 @@
         </div>
         <div class="row mb-4 mt-4">
             <div class="col-6"><i class="fa fa-building icon-size" style="font-size: 115px;"></i></div>
-            <div class="col-6" style="display: flex;justify-content: center;align-items: center;"><a class="ml-5 add-more-button" href="#">Remove</a></div>
+            <div class="col-6" style="display: flex;justify-content: center;align-items: center;"><a class="btn full-width rounded-0 " style="font-weight: 600;font-size: 16px;border: 1px solid black;width:65%;" href="#">Remove</a></div>
         </div>
         <div class="row mt-3">
             <div class="col-6"><i class="fa fa-address-book" style="font-size: 115px;"></i></div>
-            <div class="col-6" style="display: flex;justify-content: center;align-items: center;"><a class="ml-5 add-more-button" href="#">Remove</a></div>
+            <div class="col-6" style="display: flex;justify-content: center;align-items: center;"><a class="btn full-width rounded-0 " style="font-weight: 600;font-size: 16px;border: 1px solid black;width:65%;" href="#">Remove</a></div>
         </div>
 
         <div class="mt-5 text-center">
